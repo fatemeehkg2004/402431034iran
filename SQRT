@@ -1,0 +1,14 @@
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main(){
+    double x;
+    cout << "Enter a positive number:";
+    cin >> x;
+    while (x>0)
+    {       
+        cout << "sqrt(" << x << ") = " << sqrt(x) << endl; 
+ cout << "Enter another positive number (or 0 to quit): "; 
+ cin >> x; 
+ } 
+}
