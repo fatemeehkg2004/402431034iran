@@ -1,0 +1,9 @@
+#include <iostream>
+using namespace std;
+int main(){
+int det = determinant(matrix);
+
+cout << "دترمینان ماتریس: " << det << std::endl;
+
+return 0;
+}
